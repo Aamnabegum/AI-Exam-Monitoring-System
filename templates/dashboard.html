@@ -1,0 +1,6 @@
+<h2>Welcome {{ username }}</h2>
+
+<form action="/start_exam" method="POST">
+    <input type="hidden" name="username" value="{{ username }}">
+    <button type="submit">Start Test</button>
+</form>
